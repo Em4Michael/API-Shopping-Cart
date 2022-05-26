@@ -120,7 +120,7 @@ img {
 }
 
 .container {
-  width: 96%;
+  width: 100%;
   margin: auto;
 
 }
@@ -146,6 +146,7 @@ nav .container {
   align-items: center;
   justify-content: space-between;
   padding: 10px 10px;
+  
 }
 
 nav {
@@ -155,6 +156,7 @@ nav {
   padding: 0.7rem 0;
   top: 0;
   z-index: 10;
+  display: flex;
 }
 
 .search-bar {
@@ -187,16 +189,20 @@ nav .create {
   font-size: 1.5rem;
   color: #000000;
  padding-right: 2rem;
+ right: 0;
+ position: absolute;
+ 
 }
 .icon:hover{
   color: rgb(17, 0, 255);
 }
+.cart{
+  display: none;
+}
 .cart-icon{
   text-align: right;
-}
-.side{
-  display: flex;
-  gap: 30vw;
+  right: 0;
+  position: absolute;
 }
 .count{
   position: absolute;
@@ -205,6 +211,7 @@ nav .create {
   border-radius: 10px;
   padding: 10px;
   background: hsl(0, 0%, 100%);
+  
 }
 .count h2{
 padding-top: 5px;
@@ -249,11 +256,12 @@ background-color: #ff0000;
 border-radius: 50%;
 color: #ffffff;
 position: relative;
-top: -12px;
-right: 35px;
+top: -5px;
+right: 15px;
 align-items: center;
 justify-content: center;
 text-align: center;
+
 }
 /* nav end */
 

@@ -28,18 +28,40 @@ function ready() {
 		
 	}
 
-	const CIcon = document.querySelector('.icon')
-	const Neww = document.querySelector('.neww')
+	/* const CIcon = document.querySelector('.icon')
+	const CCIcon = document.querySelector('.iii')
+	const Neww = document.querySelector('.count')
 
-	CIcon.addEventListener('mouseover', ()=>{
-		if(Neww.classList.contains('hide'))
-		Neww.classList.remove('hide')
-	})
 	CIcon.addEventListener('click', ()=>{
-		/* if(Neww.classList.contains('hide')) */
-		Neww.classList.add('hide')
-	})
+		if(Neww.classList.contains('hide')){
+		Neww.classList.remove('hide')
+		}
+	}) */
 
+	const theme = document.querySelector('.icon');
+	const Ctheme = document.querySelector('.iii');
+	const themeModal = document.querySelector('.cart');
+
+	const openThemeModal = () => {
+		themeModal.style.display = 'grid';
+	}
+	const CThemeModal = () => {
+		themeModal.style.display = 'none';
+	}
+	
+	
+/* 	const closeThemeModal = (e) => {
+		if (e.target.classList.contains('cart')) { themeModal.style.display = 'none'; }
+	}
+	themeModal.addEventListener('click', closeThemeModal); */
+	
+	theme.addEventListener('click', openThemeModal);
+	Ctheme.addEventListener('click', CThemeModal);
+	
+/* 	CCIcon.addEventListener('click', ()=>{
+		Neww.classList.add('hide')
+	}) */
+ 
 	CartTotal()
 	api()
 
