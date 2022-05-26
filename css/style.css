@@ -317,7 +317,9 @@ main .container {
   grid-template-columns: 100vw; */
 
 }
-
+#pp{
+  min-height: 60vh ;
+}
 main .container .left {
   padding: 10px;
   border-radius: 25px;
