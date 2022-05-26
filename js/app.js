@@ -50,18 +50,9 @@ function ready() {
 	}
 	
 	
-/* 	const closeThemeModal = (e) => {
-		if (e.target.classList.contains('cart')) { themeModal.style.display = 'none'; }
-	}
-	themeModal.addEventListener('click', closeThemeModal); */
-	
 	theme.addEventListener('click', openThemeModal);
 	Ctheme.addEventListener('click', CThemeModal);
-	
-/* 	CCIcon.addEventListener('click', ()=>{
-		Neww.classList.add('hide')
-	}) */
- 
+
 	CartTotal()
 	api()
 
