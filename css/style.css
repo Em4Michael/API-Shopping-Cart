@@ -555,3 +555,22 @@ h4 {
   color: #fff;
 }
 /* product end */
+@media screen and (max-width: 992px) {
+  .count{
+    width: 80%;
+    left: 20%;
+    
+    
+  }
+  .card-f img {
+    width: 100px;
+    height: 150px;
+  }
+  .card-f {
+    max-width: 185px;
+    height: 350px;
+    width: 100px;
+    padding: 0px;
+    
+  }
+}
