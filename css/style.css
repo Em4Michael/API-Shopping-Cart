@@ -274,7 +274,7 @@ text-align: center;
   color: var(--color-gray);
   font-size: 14px;
   padding: 30px 20px;
-  
+
   
 }
 .footer p {
@@ -577,5 +577,16 @@ h4 {
     margin-left: 0.9rem;
     padding-bottom: 5px;
     
+  }
+  .f-col-auto img {
+    width: 80px;
+  
+  }
+  .app-logo img {
+    width: 80px;
+    padding-bottom: 10px;
+  }
+  .ll h3, p{
+  font-size: small;
   }
 }
